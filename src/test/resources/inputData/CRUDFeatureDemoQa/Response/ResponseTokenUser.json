@@ -1,0 +1,17 @@
+{
+  "userId": "#string",
+  "username": "#string",
+  "books": [
+    {
+      "isbn": "#string",
+      "title": "#string",
+      "subTitle": "#string",
+      "author": "#string",
+      "publish_date": "2024-03-05T14:30:26.190Z",
+      "publisher": "#string",
+      "pages": 0,
+      "description": "#string",
+      "website": "#string"
+    }
+  ]
+}

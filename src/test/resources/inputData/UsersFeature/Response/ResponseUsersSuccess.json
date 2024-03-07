@@ -1,0 +1,16 @@
+{
+  "page": "#string",
+  "per_page": "#string",
+  "total": "#string",
+  "total_pages": "#string",
+  "data": {
+    "id": "#string",
+    "first_name": "#string",
+    "last_name": "#string",
+    "avatar": "#string"
+  },
+  "support": {
+    "url": "#string",
+    "text": "#string"
+  }
+}

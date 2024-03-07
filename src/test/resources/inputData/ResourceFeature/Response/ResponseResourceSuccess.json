@@ -1,0 +1,17 @@
+{
+  "page": "#string",
+  "per_page": "#string",
+  "total": "#string",
+  "total_pages": "#string",
+  "data": {
+    "id": "#string",
+    "name": "#string",
+    "year": "#string",
+    "color": "#string",
+    "pantone_value": "#string"
+  },
+  "support": {
+    "url": "#string",
+    "text": "#string"
+  }
+}
