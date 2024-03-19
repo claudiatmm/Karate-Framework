@@ -1,0 +1,10 @@
+{
+  "books": [
+    {
+      "isbn": "#notnull"
+    },
+    {
+      "isbn": "#notnull"
+    }
+  ]
+}

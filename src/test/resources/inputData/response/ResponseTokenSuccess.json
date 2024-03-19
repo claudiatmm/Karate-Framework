@@ -1,0 +1,6 @@
+{
+  "token": "#notnull",
+  "expires": "#notnull",
+  "status": "Success",
+  "result": "User authorized successfully."
+}

@@ -4,6 +4,7 @@ Feature: Make login requests with different users
     * url 'https://reqres.in/api'
     * header Accept = 'application/json'
     * def requestFormat = read("../inputData/LoginFeature/Request/RequestLogin.json")
+    #* def clau = {}
 
   Scenario Outline: Make valid login requests for a specific user
     Given path '<urlSpecific>'
@@ -19,6 +20,8 @@ Feature: Make login requests with different users
     * print responseHeaders
     * match response == responseFormat
     * match $.token != null
+    #* eval clau['proba']=  'nume'
+    #* print clau['proba']
 
     Examples:
       | urlSpecific | requestType | emailValue         | passwordValue | responseCode |
@@ -38,6 +41,8 @@ Feature: Make login requests with different users
     * print responseHeaders
     * match response == responseFormat
     * match $.error != null
+    #* def alex = clau['proba']
+    #* print alex 
 
     Examples:
       | urlSpecific | requestType | emailValue         | passwordValue | responseCode |

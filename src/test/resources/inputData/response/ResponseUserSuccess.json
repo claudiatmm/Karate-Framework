@@ -1,0 +1,6 @@
+{
+  "userId": "#notnull",
+  "username": "#notnull",
+  "books": [
+  ]
+}
